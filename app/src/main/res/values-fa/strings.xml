@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- اپلیکیشن -->
+    <string name="app_name">فورسایت</string>
+
+    <!-- ناوبری -->
+    <string name="nav_home">خانه</string>
+    <string name="nav_categories">دسته‌بندی‌ها</string>
+    <string name="nav_search">جستجو</string>
+    <string name="nav_alerts">هشدارها</string>
+
+    <!-- عمومی -->
+    <string name="back">بازگشت</string>
+    <string name="save">ذخیره</string>
+    <string name="delete">حذف</string>
+    <string name="cancel">لغو</string>
+    <string name="ok">تأیید</string>
+    <string name="edit">ویرایش</string>
+    <string name="settings">تنظیمات</string>
+    <string name="skip">رد شدن</string>
+    <string name="next">بعدی</string>
+    <string name="get_started">شروع کنید</string>
+    <string name="loading">در حال بارگذاری…</string>
+    <string name="error_generic">مشکلی پیش آمد</string>
+
+    <!-- صفحه اصلی -->
+    <string name="home_add_item">افزودن آیتم</string>
+    <string name="home_expiring_week">منقضی‌شونده این هفته</string>
+    <string name="home_expired">منقضی‌شده</string>
+    <string name="home_total_tracked">تعداد پیگیری‌شده</string>
+    <string name="home_section_expiring">⚠ منقضی‌شونده این هفته</string>
+    <string name="home_section_all">همه آیتم‌ها</string>
+    <string name="home_empty_title">هنوز چیزی ثبت نشده</string>
+    <string name="home_empty_subtitle">اولین آیتم خود را اضافه کنید تا تاریخ انقضاها را پیگیری کنید و هیچ مهلتی را از دست ندهید.</string>
+    <string name="home_empty_action">افزودن اولین آیتم</string>
+
+    <!-- افزودن / ویرایش آیتم -->
+    <string name="add_title">افزودن آیتم</string>
+    <string name="edit_title">ویرایش آیتم</string>
+    <string name="add_item_name">نام آیتم</string>
+    <string name="add_category">دسته‌بندی</string>
+    <string name="add_expiry_date">تاریخ انقضا</string>
+    <string name="add_notes">یادداشت (اختیاری)</string>
+    <string name="add_recurring">آیتم تکرارشونده</string>
+    <string name="add_recurring_desc">ایجاد خودکار پس از انقضا</string>
+    <string name="add_recurrence_days">تکرار هر (روز)</string>
+    <string name="add_alert_time">زودتر از انقضا به من اطلاع بده:</string>
+    <string name="add_alert_days">%d روز باقی‌مانده</string>
+    <string name="add_error_name">نام الزامی است</string>
+    <string name="add_error_category">یک دسته‌بندی انتخاب کنید</string>
+
+    <!-- جزئیات آیتم -->
+    <string name="detail_expires">انقضا: %s</string>
+    <string name="detail_created">تاریخ ایجاد</string>
+    <string name="detail_notes">یادداشت</string>
+    <string name="detail_barcode">بارکد</string>
+    <string name="detail_recurring">تکرارشونده</string>
+    <string name="detail_recurring_every">هر %d روز</string>
+    <string name="detail_discarded">دور انداخته شد</string>
+    <string name="detail_replaced">جایگزین شد</string>
+    <string name="detail_delete_title">حذف آیتم</string>
+    <string name="detail_delete_msg">آیا مطمئن هستید که می‌خواهید این آیتم را برای همیشه حذف کنید؟ این عمل قابل بازگشت نیست.</string>
+
+    <!-- دسته‌بندی‌ها -->
+    <string name="categories_title">دسته‌بندی‌ها</string>
+    <string name="categories_empty">آیتمی وجود ندارد</string>
+    <string name="categories_empty_desc">هنوز آیتمی در این دسته‌بندی ثبت نشده است.</string>
+
+    <!-- جستجو -->
+    <string name="search_title">جستجو</string>
+    <string name="search_placeholder">جستجوی آیتم‌ها…</string>
+    <string name="search_clear">پاک کردن</string>
+    <string name="search_empty">نتیجه‌ای یافت نشد</string>
+    <string name="search_empty_desc">آیتمی با جستجوی شما مطابقت ندارد.</string>
+
+    <!-- هشدارها -->
+    <string name="alerts_title">هشدارها</string>
+    <string name="alerts_expired">⚠ منقضی‌شده (%d)</string>
+    <string name="alerts_expiring">⏰ منقضی‌شونده این هفته (%d)</string>
+    <string name="alerts_clear_title">همه چیز مرتب است!</string>
+    <string name="alerts_clear_desc">هیچ آیتمی منقضی یا در شرف انقضا نیست. آفرین!</string>
+
+    <!-- تنظیمات -->
+    <string name="settings_title">تنظیمات</string>
+    <string name="settings_premium_banner">ارتقا به پریمیوم</string>
+    <string name="settings_premium_desc">تمام امکانات فورسایت را باز کنید</string>
+    <string name="settings_notifications">اعلان‌ها</string>
+    <string name="settings_notifications_desc">یادآوری قبل از انقضای آیتم‌ها</string>
+    <string name="settings_alert_time">زمان پیش‌فرض هشدار</string>
+    <string name="settings_alert_time_desc">%d روز قبل از انقضا هشدار بده</string>
+    <string name="settings_about">درباره فورسایت</string>
+    <string name="settings_version">نسخه %s</string>
+    <string name="settings_export">خروجی داده‌ها</string>
+    <string name="settings_export_desc">خروجی همه آیتم‌ها به صورت CSV</string>
+    <string name="settings_dialog_title">زمان پیش‌فرض هشدار</string>
+    <string name="settings_day_singular">%d روز قبل از انقضا</string>
+    <string name="settings_day_plural">%d روز قبل از انقضا</string>
+
+    <!-- پریمیوم -->
+    <string name="premium_title">پریمیوم</string>
+    <string name="premium_headline">فورسایت پریمیوم را باز کنید</string>
+    <string name="premium_subtitle">بیشترین بهره را از فورسایت با امکانات پریمیوم ببرید</string>
+    <string name="premium_monthly">ماهانه</string>
+    <string name="premium_yearly">سالانه</string>
+    <string name="premium_save">۳۷%% صرفه‌جویی</string>
+    <string name="premium_cta">شروع ۷ روز تست رایگان</string>
+    <string name="premium_disclaimer">هر زمان لغو کنید. در دوره تست هزینه‌ای دریافت نمی‌شود.</string>
+
+    <!-- امکانات پریمیوم -->
+    <string name="pf_unlimited_items_title">آیتم‌های نامحدود</string>
+    <string name="pf_unlimited_items_desc">هر تعداد آیتم که نیاز دارید پیگیری کنید</string>
+    <string name="pf_all_categories_title">همه دسته‌بندی‌ها</string>
+    <string name="pf_all_categories_desc">دسترسی به ۸ دسته‌بندی</string>
+    <string name="pf_custom_alerts_title">هشدارهای دلخواه</string>
+    <string name="pf_custom_alerts_desc">زمان هشدار را خودتان تنظیم کنید</string>
+    <string name="pf_scanning_title">اسکن نامحدود</string>
+    <string name="pf_scanning_desc">بدون محدودیت اسکن بارکد و OCR</string>
+    <string name="pf_widgets_title">همه ویجت‌ها</string>
+    <string name="pf_widgets_desc">ویجت‌های صفحه اصلی برای دسترسی سریع</string>
+    <string name="pf_backup_title">پشتیبان‌گیری ابری</string>
+    <string name="pf_backup_desc">همگام‌سازی داده‌ها با گوگل درایو</string>
+    <string name="pf_recurring_title">آیتم‌های تکرارشونده</string>
+    <string name="pf_recurring_desc">ایجاد خودکار آیتم‌ها پس از انقضا</string>
+    <string name="pf_export_title">خروجی داده‌ها</string>
+    <string name="pf_export_desc">خروجی به صورت CSV یا JSON</string>
+    <string name="pf_stats_title">آمار و تحلیل</string>
+    <string name="pf_stats_desc">بینش‌های هزینه و مصرف</string>
+
+    <!-- آشنایی اولیه -->
+    <string name="onboard1_title">همه چیز را پیگیری کنید</string>
+    <string name="onboard1_desc">هر آیتمی با تاریخ انقضا اضافه کنید — مواد غذایی، دارو، مدارک، اشتراک‌ها، گارانتی‌ها و بیشتر.</string>
+    <string name="onboard2_title">اسکن هوشمند</string>
+    <string name="onboard2_desc">از برچسب یا رسید عکس بگیرید. فناوری OCR ما به صورت خودکار تاریخ انقضا را استخراج می‌کند.</string>
+    <string name="onboard3_title">هیچ مهلتی را از دست ندهید</string>
+    <string name="onboard3_desc">هشدارهای هوشمند چند روز قبل از انقضا دریافت کنید. همیشه فرصت تمدید یا جایگزینی خواهید داشت.</string>
+
+    <!-- برچسب‌های انقضا -->
+    <string name="expiry_days_ago">%d روز پیش</string>
+    <string name="expiry_yesterday">دیروز</string>
+    <string name="expiry_today">امروز</string>
+    <string name="expiry_tomorrow">فردا</string>
+    <string name="expiry_days_left">%d روز باقی‌مانده</string>
+    <string name="expiry_months_left">%d ماه باقی‌مانده</string>
+    <string name="expiry_years_left">%d سال باقی‌مانده</string>
+
+    <!-- اعلان -->
+    <string name="notif_channel_expiry">یادآوری انقضا</string>
+    <string name="notif_channel_expiry_desc">اعلان‌ها هنگام نزدیک شدن انقضا</string>
+    <string name="notif_channel_daily">خلاصه روزانه</string>
+    <string name="notif_channel_daily_desc">خلاصه روزانه آیتم‌های نیازمند توجه</string>
+    <string name="notif_expired_title">منقضی شد: %s</string>
+    <string name="notif_expiring_title">%s در %d روز منقضی می‌شود</string>
+    <string name="notif_expired_body">این آیتم منقضی شده و باید دور انداخته یا تمدید شود.</string>
+    <string name="notif_expiring_body">تنها %d روز تا انقضای %s باقی مانده است.</string>
+
+    <!-- نام دسته‌بندی‌ها -->
+    <string name="cat_food">مواد غذایی</string>
+    <string name="cat_medicine">دارو</string>
+    <string name="cat_documents">مدارک</string>
+    <string name="cat_subscriptions">اشتراک‌ها</string>
+    <string name="cat_insurance">بیمه</string>
+    <string name="cat_warranties">گارانتی</string>
+    <string name="cat_household">لوازم خانگی</string>
+    <string name="cat_other">سایر</string>
+
+    <!-- فیلدهای دسته‌بندی -->
+    <string name="field_storage">محل نگهداری</string>
+    <string name="field_opened">باز شده</string>
+    <string name="field_quantity">تعداد</string>
+    <string name="field_lot_number">شماره بچ</string>
+    <string name="field_dosage">دوز مصرف</string>
+    <string name="field_doc_number">شماره مدرک</string>
+    <string name="field_issued_by">صادرکننده</string>
+    <string name="field_renewal">نیاز به تمدید</string>
+    <string name="field_monthly_cost">هزینه ماهانه</string>
+    <string name="field_auto_renew">تمدید خودکار</string>
+    <string name="field_url">آدرس وب</string>
+    <string name="field_provider">شرکت ارائه‌دهنده</string>
+    <string name="field_policy">شماره بیمه‌نامه</string>
+    <string name="field_premium">حق بیمه</string>
+    <string name="field_retailer">فروشگاه</string>
+    <string name="field_order">شماره سفارش</string>
+    <string name="field_price">قیمت خرید</string>
+    <string name="field_location">مکان</string>
+    <string name="field_brand">برند</string>
+
+    <!-- گزینه‌های محل نگهداری -->
+    <string name="storage_fridge">یخچال</string>
+    <string name="storage_freezer">فریزر</string>
+    <string name="storage_pantry">انباری</string>
+    <string name="storage_counter">روی کانتر</string>
+</resources>
